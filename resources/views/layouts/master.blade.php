@@ -34,7 +34,7 @@
         @include('layouts.sidebar')
 
         <!-- Content Wrapper. Contains page content -->
-        @include('layouts.content')
+        @yield('content')
         <!-- /.content-wrapper -->
 
         <!-- Control Sidebar -->
